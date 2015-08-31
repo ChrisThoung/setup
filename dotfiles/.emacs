@@ -38,3 +38,6 @@
 ; Font (requires Inconsolata font)
 (custom-set-faces
  '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 113 :width normal)))))
+
+; Replace all 'yes'/'no' questions with 'y/n'
+(defalias 'yes-or-no-p 'y-or-n-p)
