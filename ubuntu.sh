@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 sudo apt-get update
+# Bash
+cp dotfiles/.bashrc ~/
 # Tools
 sudo apt-get install curl libcurl4-openssl-dev libxml2-dev libssh2-1-dev
 # Parallel
