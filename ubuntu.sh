@@ -2,8 +2,11 @@
 sudo apt-get update
 # Bash
 cp dotfiles/.bashrc ~/
-# Tools
+# Tools: Dev
 sudo apt-get install curl libcurl4-openssl-dev libxml2-dev libssh2-1-dev
+# Tools: TLP
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get install tlp tlp-rdw
 # Parallel
 sudo apt-get install parallel
 # Emacs
