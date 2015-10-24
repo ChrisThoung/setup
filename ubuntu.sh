@@ -2,6 +2,8 @@
 sudo apt-get update
 # Bash
 cp dotfiles/.bashrc ~/
+# Tools: git
+cp dotfiles/.bash_git ~/
 # Tools: Dev
 sudo apt-get install curl libcurl4-openssl-dev libxml2-dev libssh2-1-dev
 # Tools: TLP

@@ -1,0 +1,6 @@
+# Aliases for git
+# Some aliases based on git tips from:
+# https://ochronus.com/git-tips-from-the-trenches/
+alias gi="git init"
+alias gd="git diff --color --minimal"
+alias gl="git log --oneline --decorate"
