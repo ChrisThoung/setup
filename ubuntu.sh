@@ -2,6 +2,7 @@
 sudo apt-get update
 # Bash
 cp dotfiles/.bashrc ~/
+cp dotfiles/.bash_aliases ~/
 # Tools: git
 cp dotfiles/.bash_git ~/
 # Tools: Dev
@@ -33,6 +34,8 @@ cp color-theme.el ~/.emacs.d/
 git clone git://github.com/altercation/solarized.git
 mkdir -p ~/.emacs.d/solarized
 cp solarized/emacs-colors-solarized/* ~/.emacs.d/solarized/
+git clone https://github.com/seebi/dircolors-solarized.git
+cp dircolors-solarized/dircolors.256dark ~/.dircolors
 cd ..
 # Redshift
 sudo apt-get install redshift

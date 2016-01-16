@@ -39,5 +39,8 @@
 (custom-set-faces
  '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 113 :width normal)))))
 
+; Set up Emacs as an edit server
+(server-start)
+
 ; Replace all 'yes'/'no' questions with 'y/n'
 (defalias 'yes-or-no-p 'y-or-n-p)

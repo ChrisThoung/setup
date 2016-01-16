@@ -119,3 +119,14 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Change prompt
+# \n - new line
+# \u - username
+# \h - hostname (machine name)
+# \! - history number
+# \# - command number
+# \d - date
+# \t - time (24-hour clock)
+# \w - current working directory
+ PS1='\n\d \t \!:\#\n\u@\h \w\n$ '
