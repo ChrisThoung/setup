@@ -34,6 +34,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; Enable change-case macros
+(put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
 ;; Raise large-file warning threshold to something greater than Emacs' (rather
@@ -49,3 +50,6 @@
 			 '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
 ;; Set colour theme to Solarized Dark
+;; (setq package-enable-at-startup nil)
+(package-initialize)
+(load-theme 'solarized-dark)
