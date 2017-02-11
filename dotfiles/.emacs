@@ -53,3 +53,7 @@
 ;; (setq package-enable-at-startup nil)
 (package-initialize)
 (load-theme 'solarized-dark)
+
+;; Disable Abbrevs
+(setq default-abbrev-mode -1)
+(setq save-abbrevs nil)
